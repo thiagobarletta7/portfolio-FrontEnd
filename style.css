@@ -1,0 +1,89 @@
+@font-face {
+    font-family: southpark;
+    src: url(letra_southpark/south\ park.ttf);
+}
+
+nav {
+    background-color:   rgb(205, 225, 233);
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: solid black 2px;
+}
+
+body {
+    background-image: url(imagenes/south-park-ciudad.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: southpark;
+
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+color:black;
+font-size: 80px;
+border: solid 3px black;
+padding: 15px;
+margin: 40px;
+
+}
+
+p, h1{
+    background-color: orange;
+    
+}
+p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+h2 {
+    background-color: orangered;
+    font-size: 60px;
+    border-bottom: solid black 10px;
+    margin: 0px;
+}
+
+section {
+    background-color: oldlace;
+    font-size: 25px;
+    text-align: center;
+    border: solid black 10px;
+}
+
+.personajes {
+    margin-bottom: 70px;
+    border-bottom: solid black 10px;
+}
+
+.descripciones {
+    background-color: orange;
+    border-top: solid black 10px;
+}
+
+.videojuegos {
+    border-top: solid black 10px;
+}
+
+.trailer {
+    background-color: oldlace;
+    border: solid black 5px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+a {
+    padding: 20px;
+}
+.webs {
+    height: 50px;
+}
